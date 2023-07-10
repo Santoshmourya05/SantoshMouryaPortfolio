@@ -1,0 +1,48 @@
+.skills {
+  background-color: #f5f5f5; /* Set the background color */
+  padding: 50px; /* Add padding for spacing */
+  text-align: center; /* Center the content */
+}
+
+.table-style {
+  width: 100%; /* Set the table width to 100% */
+  max-width: 500px; /* Set a maximum width to control responsiveness */
+  margin: 0 auto; /* Center the table horizontally */
+  background-color: #ffffff; /* Set the table background color */
+  border-collapse: collapse; /* Collapse the table borders */
+}
+
+.table-style td {
+  padding: 10px; /* Add padding for spacing */
+}
+
+.logo-img {
+  height: 40px; /* Set the height of the logo image */
+  width: auto; /* Auto-adjust the width to maintain aspect ratio */
+  margin-right: 10px; /* Add margin for spacing */
+}
+.table-style {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border: 1px solid #dddddd;
+}
+
+.table-style th {
+  font-weight: bold; /* Add bold font weight */
+  padding: 10px;
+  border: 5px solid #111010;
+}
+
+.table-style td {
+  padding: 10px;
+  border: 2px solid #161515;
+}
+
+@media (max-width: 768px) {
+  .table-style {
+    max-width: 300px; /* Adjust the maximum width for smaller screens */
+  }
+}

@@ -1,0 +1,46 @@
+/* Resume.css */
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 100px);
+  }
+  
+  .Resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  .Resume h1 {
+    color: #333333;
+    font-size: 36px;
+    text-align: center;
+  }
+  .resume-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .resume-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3D4143;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  .resume-button:hover {
+    background-color:grey;
+  }
+  

@@ -1,0 +1,161 @@
+.hero {
+  display: flex;
+  min-height: calc(100vh - 100px);
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  max-width: 68.75rem;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-title {
+  font-size: 36px;
+  color: #333333;
+}
+
+.hero-description {
+  font-size: 18px;
+  color: #555555;
+  margin-bottom: 20px;
+}
+
+.hero-button {
+  display: inline-block;
+  background-color: #3D4143;
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #555555;
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.profile-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 320px) {
+  .hero {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 20px;
+  }
+
+  .hero-title {
+    font-size: 24px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .hero-button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .profile-image {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  .hero-title {
+    font-size: 28px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+  }
+
+  .hero-button {
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+
+  .profile-image {
+    height: 110px;
+    width: 110px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 720px) {
+  .hero-title {
+    font-size: 32px;
+  }
+
+  .hero-description {
+    font-size: 18px;
+  }
+
+  .hero-button {
+    padding: 14px 28px;
+    font-size: 18px;
+  }
+
+  .profile-image {
+    height: 160px;
+    width: 160px;
+  }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1080px) {
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .hero-description {
+    font-size: 20px;
+  }
+
+  .hero-button {
+    padding: 16px 32px;
+    font-size: 20px;
+  }
+
+  .profile-image {
+    height: 180px;
+    width: 180px;
+  }
+}
+
+@media screen and (min-width: 1081px) {
+  .hero-title {
+    font-size: 40px;
+  }
+
+  .hero-description {
+    font-size: 22px;
+  }
+
+  .hero-button {
+    padding: 18px 36px;
+    font-size: 22px;
+  }
+
+  .profile-image {
+    height: 280px;
+    width: 280px;
+  }
+}
